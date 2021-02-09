@@ -35,7 +35,7 @@ export class NotesBackendStack extends Stack {
 
     // Create Lambda function to interact with DynamoDB
     const notesLambda = new NodejsFunction(this, 'NotesFunction', {
-      runtime: Runtime.NODEJS_12_X,
+      runtime: Runtime.NODEJS_14_X,
       memorySize: 1024,
       handler: 'handler',
       entry: 'lambda/main.ts',
