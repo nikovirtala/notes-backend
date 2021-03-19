@@ -7,17 +7,15 @@
     },
     {
       "name": "@typescript-eslint/eslint-plugin",
-      "version": "^4.3.0",
       "type": "build"
     },
     {
       "name": "@typescript-eslint/parser",
-      "version": "^4.3.0",
       "type": "build"
     },
     {
       "name": "aws-cdk",
-      "version": "^1.89.0",
+      "version": "^1.94.1",
       "type": "build"
     },
     {
@@ -51,12 +49,12 @@
     },
     {
       "name": "projen",
-      "version": "^0.16.3",
+      "version": "^0.17.16",
       "type": "build"
     },
     {
       "name": "standard-version",
-      "version": "^9.0.0",
+      "version": "^9",
       "type": "build"
     },
     {
@@ -65,37 +63,36 @@
     },
     {
       "name": "typescript",
-      "version": "^3.9.5",
       "type": "build"
     },
     {
       "name": "@aws-cdk/assert",
-      "version": "^1.89.0",
+      "version": "^1.94.1",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-appsync",
-      "version": "^1.89.0",
+      "version": "^1.94.1",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-dynamodb",
-      "version": "^1.89.0",
+      "version": "^1.94.1",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-lambda-nodejs",
-      "version": "^1.89.0",
+      "version": "^1.94.1",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-lambda",
-      "version": "^1.89.0",
+      "version": "^1.94.1",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/core",
-      "version": "^1.89.0",
+      "version": "^1.94.1",
       "type": "runtime"
     },
     {
