@@ -29,7 +29,7 @@ const project = new AwsCdkTypeScriptApp({
   pullRequestTemplate: false,
   rebuildBot: false,
   readme: false,
-  eslint: true
+  eslint: true,
 });
 
 project.synth();
