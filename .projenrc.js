@@ -1,7 +1,7 @@
 const { AwsCdkTypeScriptApp } = require('projen');
 
 const project = new AwsCdkTypeScriptApp({
-  cdkVersion: '1.94.1',
+  cdkVersion: '1.128.0',
   defaultReleaseBranch: 'main',
   jsiiFqn: 'projen.AwsCdkTypeScriptApp',
   name: 'notes-backend',
@@ -23,13 +23,28 @@ const project = new AwsCdkTypeScriptApp({
   licensed: true,
   repository: 'https://github.com/nikovirtala/notes-backend',
   codeCov: false,
-  dependabot: true,
+  dependabot: false,
   dependabotOptions: { scheduleInterval: 'weekly' },
   jest: false,
   pullRequestTemplate: false,
   rebuildBot: false,
   readme: false,
+  mergify: true,
+  depsUpgradeOptions: {
+    ignoreProjen: false,
+    workflowOptions: {
+      labels: ['auto-approve', 'auto-merge'],
+      secret: 'AUTOMATION_TOKEN',
+    },
+  },
+  autoApproveOptions: {
+    secret: 'GITHUB_TOKEN',
+    allowedUsernames: ['nikovirtala'],
+  },
   eslint: true,
+  eslintOptions: {
+    prettier: true,
+  },
 });
 
 project.synth();
