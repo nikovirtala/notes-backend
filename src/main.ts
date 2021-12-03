@@ -1,8 +1,9 @@
-import { GraphqlApi, Schema, AuthorizationType } from '@aws-cdk/aws-appsync';
-import { Table, BillingMode, AttributeType } from '@aws-cdk/aws-dynamodb';
-import { Runtime } from '@aws-cdk/aws-lambda';
-import { NodejsFunction } from '@aws-cdk/aws-lambda-nodejs';
-import { App, Construct, Stack, StackProps, Expiration, Duration, CfnOutput } from '@aws-cdk/core';
+import { GraphqlApi, Schema, AuthorizationType } from '@aws-cdk/aws-appsync-alpha';
+import { Table, BillingMode, AttributeType } from 'aws-cdk-lib/aws-dynamodb';
+import { Runtime } from 'aws-cdk-lib/aws-lambda';
+import { NodejsFunction } from 'aws-cdk-lib/aws-lambda-nodejs';
+import { App, Stack, StackProps, Expiration, Duration, CfnOutput } from 'aws-cdk-lib/core';
+import { Construct } from 'constructs';
 
 export class NotesBackendStack extends Stack {
   constructor(scope: Construct, id: string, props: StackProps = {}) {

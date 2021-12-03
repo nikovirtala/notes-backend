@@ -1,23 +1,17 @@
 const { AwsCdkTypeScriptApp } = require('projen');
 
 const project = new AwsCdkTypeScriptApp({
-  cdkVersion: '1.128.0',
+  cdkVersion: '2.0.0',
   defaultReleaseBranch: 'main',
   jsiiFqn: 'projen.AwsCdkTypeScriptApp',
   name: 'notes-backend',
-  cdkDependencies: [
-    '@aws-cdk/aws-appsync',
-    '@aws-cdk/aws-dynamodb',
-    '@aws-cdk/aws-lambda-nodejs',
-    '@aws-cdk/aws-lambda',
-  ],
   context: {
     '@aws-cdk/core:newStyleStackSynthesis': 'true',
   },
   authorEmail: 'niko.virtala@hey.com',
   authorName: 'Niko Virtala',
   authorUrl: 'https://www.cloudgardener.dev/',
-  deps: ['aws-sdk'],
+  deps: ['aws-sdk', '@aws-cdk/aws-appsync-alpha@2.0.0-alpha.11'],
   devDeps: ['prettier', 'esbuild@0'],
   license: 'MIT',
   licensed: true,
