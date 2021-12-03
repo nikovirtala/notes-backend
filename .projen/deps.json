@@ -7,10 +7,12 @@
     },
     {
       "name": "@typescript-eslint/eslint-plugin",
+      "version": "^5",
       "type": "build"
     },
     {
       "name": "@typescript-eslint/parser",
+      "version": "^5",
       "type": "build"
     },
     {
@@ -21,10 +23,6 @@
     {
       "name": "esbuild",
       "version": "0",
-      "type": "build"
-    },
-    {
-      "name": "eslint",
       "type": "build"
     },
     {
@@ -45,6 +43,11 @@
     },
     {
       "name": "eslint-plugin-prettier",
+      "type": "build"
+    },
+    {
+      "name": "eslint",
+      "version": "^8",
       "type": "build"
     },
     {
