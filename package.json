@@ -42,7 +42,7 @@
     "json-schema": "^0.4.0",
     "npm-check-updates": "^11",
     "prettier": "^2.5.0",
-    "projen": "^0.36.5",
+    "projen": "^0.36.6",
     "ts-node": "^9",
     "typescript": "^3.9.10"
   },
@@ -50,7 +50,7 @@
     "@aws-cdk/assert": "^2.0.0",
     "@aws-cdk/aws-appsync-alpha": "2.0.0-alpha.11",
     "aws-cdk-lib": "^2.0.0",
-    "aws-sdk": "^2.1042.0",
+    "aws-sdk": "^2.1043.0",
     "constructs": "^10.0.5"
   },
   "bundledDependencies": [],
