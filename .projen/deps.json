@@ -2,7 +2,7 @@
   "dependencies": [
     {
       "name": "@types/node",
-      "version": "^14.17.0",
+      "version": "^12",
       "type": "build"
     },
     {
@@ -22,7 +22,6 @@
     },
     {
       "name": "esbuild",
-      "version": "0",
       "type": "build"
     },
     {
@@ -56,7 +55,7 @@
     },
     {
       "name": "npm-check-updates",
-      "version": "^11",
+      "version": "^12",
       "type": "build"
     },
     {
@@ -77,13 +76,8 @@
       "type": "build"
     },
     {
-      "name": "@aws-cdk/assert",
-      "version": "^2.1.0",
-      "type": "runtime"
-    },
-    {
       "name": "@aws-cdk/aws-appsync-alpha",
-      "version": "2.0.0-alpha.11",
+      "version": "2.1.0-alpha.0",
       "type": "runtime"
     },
     {

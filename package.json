@@ -6,6 +6,7 @@
   },
   "scripts": {
     "build": "npx projen build",
+    "bundle": "npx projen bundle",
     "clobber": "npx projen clobber",
     "compile": "npx projen compile",
     "default": "npx projen default",
@@ -19,6 +20,7 @@
     "synth": "npx projen synth",
     "test": "npx projen test",
     "upgrade": "npx projen upgrade",
+    "watch": "npx projen watch",
     "projen": "npx projen"
   },
   "author": {
@@ -28,7 +30,7 @@
     "organization": false
   },
   "devDependencies": {
-    "@types/node": "^14.17.0",
+    "@types/node": "^12",
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
     "aws-cdk": "^2.1.0",
@@ -40,15 +42,14 @@
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-prettier": "^4.0.0",
     "json-schema": "^0.4.0",
-    "npm-check-updates": "^11",
+    "npm-check-updates": "^12",
     "prettier": "^2.5.1",
-    "projen": "^0.40.5",
+    "projen": "^0.43.2",
     "ts-node": "^9",
     "typescript": "^3.9.10"
   },
   "dependencies": {
-    "@aws-cdk/assert": "^2.1.0",
-    "@aws-cdk/aws-appsync-alpha": "2.0.0-alpha.11",
+    "@aws-cdk/aws-appsync-alpha": "2.1.0-alpha.0",
     "aws-cdk-lib": "^2.1.0",
     "aws-sdk": "^2.1046.0",
     "constructs": "^10.0.5"
