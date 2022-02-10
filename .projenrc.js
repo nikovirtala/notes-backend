@@ -1,7 +1,7 @@
 const { awscdk } = require('projen');
 
 const project = new awscdk.AwsCdkTypeScriptApp({
-  cdkVersion: '2.1.0',
+  cdkVersion: '2.12.0',
   defaultReleaseBranch: 'main',
   jsiiFqn: 'projen.AwsCdkTypeScriptApp',
   name: 'notes-backend',
@@ -11,7 +11,7 @@ const project = new awscdk.AwsCdkTypeScriptApp({
   authorEmail: 'niko.virtala@hey.com',
   authorName: 'Niko Virtala',
   authorUrl: 'https://www.cloudgardener.dev/',
-  deps: ['aws-sdk', '@aws-cdk/aws-appsync-alpha@2.1.0-alpha.0'],
+  deps: ['aws-sdk', '@aws-cdk/aws-appsync-alpha@2.12.0-alpha.0'],
   devDeps: ['prettier'],
   license: 'MIT',
   licensed: true,
