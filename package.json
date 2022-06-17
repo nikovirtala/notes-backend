@@ -46,7 +46,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "json-schema": "^0.4.0",
     "npm-check-updates": "^12",
-    "prettier": "^2.7.0",
+    "prettier": "^2.7.1",
     "projen": "^0.58.15",
     "ts-node": "^9",
     "typescript": "^3.9.10"
@@ -54,7 +54,7 @@
   "dependencies": {
     "@aws-cdk/aws-appsync-alpha": "2.17.0-alpha.0",
     "aws-cdk-lib": "^2.17.0",
-    "aws-sdk": "^2.1155.0",
+    "aws-sdk": "^2.1156.0",
     "constructs": "^10.0.5"
   },
   "license": "MIT",
