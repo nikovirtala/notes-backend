@@ -45,16 +45,16 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
     "json-schema": "^0.4.0",
-    "npm-check-updates": "^12",
+    "npm-check-updates": "^15",
     "prettier": "^2.7.1",
-    "projen": "^0.58.33",
+    "projen": "^0.58.36",
     "ts-node": "^9",
     "typescript": "^3.9.10"
   },
   "dependencies": {
     "@aws-cdk/aws-appsync-alpha": "2.17.0-alpha.0",
     "aws-cdk-lib": "^2.17.0",
-    "aws-sdk": "^2.1176.0",
+    "aws-sdk": "^2.1177.0",
     "constructs": "^10.0.5"
   },
   "license": "MIT",
