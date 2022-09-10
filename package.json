@@ -47,14 +47,14 @@
     "json-schema": "^0.4.0",
     "npm-check-updates": "^15",
     "prettier": "^2.7.1",
-    "projen": "^0.61.47",
+    "projen": "^0.62.1",
     "ts-node": "^9",
     "typescript": "^3.9.10"
   },
   "dependencies": {
     "@aws-cdk/aws-appsync-alpha": "2.17.0-alpha.0",
     "aws-cdk-lib": "^2.17.0",
-    "aws-sdk": "^2.1212.0",
+    "aws-sdk": "^2.1213.0",
     "constructs": "^10.0.5"
   },
   "license": "MIT",
